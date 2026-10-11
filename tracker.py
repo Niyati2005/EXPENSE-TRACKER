@@ -16,7 +16,7 @@ def show_expenses():
     total = sum(expense['amount'] for expense in expenses)
     print("Total expenses: ", total)
 
-    while True:
+while True:
         print("1. Add Expense")
         print("2. Show Expenses")
         print("3. Exit")
